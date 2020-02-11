@@ -59,4 +59,7 @@ module.exports = {
      */
     extend(config, ctx) {}
   }
+  env: {
+      API_KEY: process.env.API_KEY
+  }
 }
