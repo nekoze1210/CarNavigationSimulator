@@ -58,8 +58,8 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
   env: {
-      API_KEY: process.env.API_KEY
+    API_KEY: process.env.API_KEY
   }
 }
